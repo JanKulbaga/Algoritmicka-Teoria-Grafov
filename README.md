@@ -5,7 +5,7 @@ Tento repozitár obsahuje implementáciu štyroch algoritmov:
 - Label set algoritmus
 - Kruskalov algoritmus
 - Metóda kritickej cesty
-- Fordov fulkensonov algoritmus
+- Fordov-Fulkersonov algoritmus
 
 Všetky algoritmy sú napísané v Pythone vo verzií 3.11.1 na platforme Windows.
 
