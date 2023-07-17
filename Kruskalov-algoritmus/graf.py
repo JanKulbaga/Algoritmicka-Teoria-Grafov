@@ -8,7 +8,7 @@ class Graf:
         self.hrany = [[0 for _ in range(3)] for _ in range(self.pocet_hran)]
 
     @staticmethod
-    def nacitajSubor(nazovSuboru) -> Graf:
+    def nacitajSubor(nazovSuboru: str) -> Graf:
         pocet_vrcholov = 1
         pocet_hran = 0
         with open(nazovSuboru) as file:
