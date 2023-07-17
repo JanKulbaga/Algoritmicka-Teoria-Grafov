@@ -8,7 +8,7 @@ class Digraf:
         self.hrany = [[0 for _ in range(3)] for _ in range(self.pocet_hran)]
 
     @staticmethod
-    def nacitajSubor(nazovSuboru) -> Digraf:
+    def nacitajSubor(nazovSuboru: str) -> Digraf:
         pocet_vrcholov = 1
         pocet_hran = 0
         with open(nazovSuboru) as file:
