@@ -43,7 +43,7 @@ class FordovFulkersonovAlg:
         for hrana in self.graf.hrany[1:]:
             print(hrana)
 
-    def zvacsujuca_polocesta(self, zdroj, ustie, pole_predchodcov) -> bool:
+    def zvacsujuca_polocesta(self, zdroj: int, ustie: int, pole_predchodcov: list[int]) -> bool:
         navstivene = [False] * (self.graf.pocet_vrcholov + 1)
 
         epsilon = Queue()
